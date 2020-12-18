@@ -1,7 +1,4 @@
 def count_strings(array)
-array = [1, "hello", [], 5.01, "world", :name, { a: 1 }]
-
-
 array.count { |str| str.is_a?(String) } 
 
 end
